@@ -46,10 +46,11 @@ body {
 .titles h1 {
   color: var(--very-dark-blue);
   align-items: center;
+  font-size: 48px;
 }
 
-.title {
-  font-weight: 400;
+.title-timid {
+  font-weight: 200;
 }
 
 .title-bold {
@@ -81,8 +82,8 @@ body {
 .card {
   background-color: #fff;
   padding: 24px 32px;
-  width: 400px;
-  min-height: 300px;
+  width: 350px;
+  min-height: 250px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: flex;
