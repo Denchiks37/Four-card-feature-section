@@ -33,6 +33,7 @@ body {
   color: var(--grayish-blue);
   display: flex;
   flex-direction: column;
+  gap: 64px;
 }
 
 .titles {
@@ -40,7 +41,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 64px;
 }
 
 .titles h1 {
@@ -50,7 +51,9 @@ body {
 }
 
 .title-timid {
-  font-weight: 200;
+  color: var(--very-dark-blue);
+  align-items: center;
+  font-size: 48px;
 }
 
 .title-bold {
@@ -64,8 +67,8 @@ body {
 }
 
 .main {
-  min-width: 100%;
-  min-height: 60%;
+  max-width: 100%;
+  max-height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
