@@ -27,7 +27,7 @@ body {
 body {
   background-color: var(--very-light-gray);
   line-height: 1.5;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   font-weight: 200;
   font-family: "Poppins", sans-serif;
   color: var(--grayish-blue);
@@ -47,13 +47,15 @@ body {
 .titles h1 {
   color: var(--very-dark-blue);
   align-items: center;
-  font-size: 3rem;
+}
+.title-bold,
+.title-timid {
+  font-size: 2.25rem;
 }
 
 .title-timid {
   color: var(--very-dark-blue);
   align-items: center;
-  font-size: 3rem;
 }
 
 .title-bold {
@@ -98,6 +100,8 @@ body {
 
 .card-title {
   color: var(--very-dark-blue);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .card-supervisor {
